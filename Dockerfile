@@ -1,6 +1,5 @@
 FROM ubuntu:latest
 
-# Build essentials
 RUN apt update -qq ;\
     apt install -y wget build-essential
 
